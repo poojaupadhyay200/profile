@@ -43,7 +43,7 @@ a{
     justify-content: flex-end;
     align-content: center;
     align-items: center;
-    font-size: 25px
+    font-size: 25px;
         
 }
 
@@ -53,17 +53,12 @@ a{
 }
 
 .my-image{
-    width: 100%;
-    background-image: url(img/img\ 90.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-.my-image{
     justify-content: center;
     align-content: center;
     align-items: center;
+    background-size: contain;
 }
+
 .image-suraj img{
     align-self: center;
     margin-left: 45%;
@@ -1266,18 +1261,8 @@ a{
     color: aliceblue;
 }
 
-.my-image{
-    width: 100%;
-    background-image: url(img/img\ 90.jpgs);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-.my-image{
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
+
+
 .image-pooja img{
     align-self: center;
     margin-left:22%;
@@ -1364,6 +1349,4 @@ footer h3{
     padding: 10px;
     margin-left: 35%;
 }
-
-
 }
